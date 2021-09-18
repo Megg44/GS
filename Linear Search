@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+  int arr[10] = {5, 1, 6, 2, 7, 8, 9, 0, 4, 3};
+  int no = 8;
+  int i;
+  for(i = 0; i < 10 ; i++){
+    if(arr[i] == no)
+      break;
+  }
+
+  printf("%dth place", i+1);
+}
